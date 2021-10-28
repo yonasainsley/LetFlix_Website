@@ -1,0 +1,36 @@
+.foot{
+    height:100px;
+    width:100%;
+    background-color: rgb(17, 17, 17);
+}
+
+.social{
+    font-size:18px;
+    margin-bottom:0;
+    padding:0 10px;
+    color: white;
+    line-height:1.6;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(17, 17, 17);
+}
+
+.foot a{
+    margin-top: 20px;
+    background-color: rgb(17, 17, 17);
+    text-decoration: none;
+    color: white;
+}
+
+.foot a:hover {
+    color: rgb(83, 81, 81);    
+  }
+
+.foot p{
+    background-color: rgb(17, 17, 17);
+    margin-top:10px;
+    text-align:center;
+    font-size:18px;
+    color:#aaa;
+    margin-bottom:0;
+}

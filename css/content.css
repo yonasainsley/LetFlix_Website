@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    /* background-color: black; */
+    font-family: "Cairo", sans-serif;
+}
+
+.page{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    padding: 40px 0 100px 0;
+}
+
+.page h1{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    width:80%;
+    justify-content: space-between;
+}
+
+.container{
+    font-size: 15px;
+}
+
+.container h1{
+    position: relative;
+    left:7%;
+    margin: 30px 0;
+}
+
+.image{
+    display: flex;
+    width:100%;
+    justify-content: center;
+}
+
+.image2{
+    display: flex;
+    width:100%;
+    justify-content: center;
+}
+
+.image3{
+    display: flex;
+    width:100%;
+    justify-content: center;
+}
+
+.image img{
+    width: 500px;
+}
+
+.image2 img{
+    width: 500px;
+}
+
+.image3 img{
+    width: 500px;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+    background-color: #f1f1f1;
+    color: black;
+  }
+
+.slide{
+    max-width: 500px;
+    position: relative;
+    margin: auto;
+}
+

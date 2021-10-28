@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscription Form</title>
+    <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="../navbar/navbar.css">
+    <link rel="stylesheet" href="../Footer/footer.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/grid.css">
+</head>
+</head>
+<body>
+
+    <div class="header">
+        <div class="dropdown">
+            <img src="assets/menu.png" alt="" class="drop-btn">
+                <div class="dropdown-content">
+                    <a href="dramas.html">Dramas</a>
+                    <a href="plans.html">Plans</a>
+                    <a href="about.html">About</a>
+                    <a href="form.html">Subscription</a>
+                </div>
+        </div>
+        <a href="home.html"><img src="assets/logo.png" alt=""></a>
+    </div>
+
+<div class="big">
+    <div class="form-container">
+        <h1 id="signup">SIGN UP</h1><br><br>
+        <div class="form-container2">
+            <form id="form" class="form" action="home.html"> 
+                <div class="form-row">
+                    <label for="inputemail">Email</label>
+                    <input type="email" id = "inputemail">
+                    <small>Error message</small>
+                </div>
+                <div class="form-row">
+                    <label for="inputpassword">Password</label>
+                    <input type="password" id = "inputpassword">
+                    <small>Error message</small>
+                </div>
+                <div class="form-row">
+                    <label for="inputpasswordconfirmation">Confirm your Password</label>
+                    <input type="password" id = "inputpasswordconfirmation">
+                    <small>Error message</small>
+                </div>
+                <div class="form-row">
+                    <label for="inputphone">Phone Number</label>
+                    <input type="text" id = "inputphone">
+                    <small>Error message</small>
+                </div>
+                <div class="form-row">
+                    <label for="inputcountry">Country</label>
+                    <input type="text" id = "inputcountry">
+                    <small>Error message</small>
+                </div>
+                <div>
+                    <p>Choose your plan:</p><br>
+                    <div class="plan">
+                        <input type="radio" id="silver" name="plan" value="silver">
+                        <label for="silver">Silver</label>
+                        <input type="radio" id="gold" name="plan" value="gold">
+                        <label for="gold">Gold</label>
+                        <input type="radio" id="diamond" name="plan" value="diamond">
+                        <label for="diamond">Diamond</label>
+                    </div>
+                </div> <br><br>
+                <div class="tnc">
+                    I Agree To The Terms and Conditions
+                    <div>
+                        <input type="checkbox" required id="tnc" name="tnc" value="tnc">
+                    </div>
+                </div> <br><br>
+                <a href="home.html">
+                    <input type="submit" id="submit">
+                </a>
+                <br><br>
+
+                <div class="bottom-signin">
+                    <div>Already have an account?</div>
+                    <a href="" class="signinnow">Sign in now</a>
+                </div>
+            </form>
+        </div>
+
+        
+    </div>
+</div>
+
+
+<footer class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-4 col-md-6 col-sm-12">
+                <div class="content">
+                    <a href="home.html" class="logo">
+                        <img src="assets/logo.png" alt="">
+                    </a>
+                    <p>
+                        Letflix is one of the world's leading media streaming platform and entertainment service that serves users the most exciting and excellent choices of entertainment media in the form of movies and TV shows / series. With the current selection of more than a dozen entertainment media, user satisfaction and time spent well is rest assured.
+                    </p>
+                </div>
+            </div>
+            <div class="col-8 col-md-6 col-sm-12">
+                <div class="row">
+                    
+                    <div class="col-3 col-md-6 col-sm-6">
+                        <div class="content">
+                            <p><b>Browse</b></p>
+                            <ul class="footer-menu">
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">My profile</a></li>
+                                <li><a href="#">Pricing plans</a></li>
+                                <li><a href="#">Contacts</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-3 col-md-6 col-sm-6">
+                        <div class="content">
+                            <p><b>Help</b></p>
+                            <ul class="footer-menu">
+                                <li><a href="#">Cookies preferences</a></li>
+                                <li><a href="#">Terms of use</a></li>
+                                <li><a href="#">Customer service</a></li>
+                                <li><a href="#">Contact us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-3 col-md-6 col-sm-6">
+                        <div class="content">
+                            <p><b>Download app</b></p>
+                            <ul class="footer-menu">
+                                <li>
+                                    <a href="#">
+                                        <img src="assets/google-play.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <img src="assets/app-store.png" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+<script src="js/form.js"></script>
+</body>
+</html>
